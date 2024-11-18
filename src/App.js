@@ -5,6 +5,8 @@ import "./App.css";
 // import GreetingComponent from "./GreetingComponent";
 // import WelcomProps from "./WelcomeProps";
 import Articles from "./Articles";
+import MyComponent from "./MyComponent";
+import BoxComponent from "./BoxComponenet";
 // const productInfo = {
 //   date: "2024-09-01",
 //   product: "iPhone 16 Pro",
@@ -14,6 +16,8 @@ function App() {
     <>
       <h1>여기는 App.js입니다.</h1>
       <Articles></Articles>
+      <MyComponent name="안유진" age={21}></MyComponent>
+      <BoxComponent></BoxComponent>
       {/* <JsxSytax></JsxSytax>
       <GreetingComponent></GreetingComponent> */}
       {/* <WelcomProps
