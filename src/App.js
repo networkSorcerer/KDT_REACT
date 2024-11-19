@@ -4,20 +4,26 @@ import "./App.css";
 // import JsxSytax from "./jsx문법";
 // import GreetingComponent from "./GreetingComponent";
 // import WelcomProps from "./WelcomeProps";
-import Articles from "./Articles";
-import MyComponent from "./MyComponent";
-import BoxComponent from "./BoxComponenet";
+// import Articles from "./Articles";
+// import MyComponent from "./MyComponent";
+// import BoxComponent from "./BoxComponenet";
 // const productInfo = {
 //   date: "2024-09-01",
 //   product: "iPhone 16 Pro",
 // };
+// import Counter from "./ClassComponent";
+import Counter2 from "./ClassComponent2";
+import Say from "./Say";
 function App() {
   return (
     <>
-      <h1>여기는 App.js입니다.</h1>
-      <Articles></Articles>
+      <Counter2></Counter2>
+      <Say></Say>
+      {/* <Counter></Counter> */}
+      {/* <h1>여기는 App.js입니다.</h1> */}
+      {/* <Articles></Articles>
       <MyComponent name="안유진" age={21}></MyComponent>
-      <BoxComponent></BoxComponent>
+      <BoxComponent></BoxComponent> */}
       {/* <JsxSytax></JsxSytax>
       <GreetingComponent></GreetingComponent> */}
       {/* <WelcomProps
