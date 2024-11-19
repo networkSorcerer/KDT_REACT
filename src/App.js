@@ -12,13 +12,17 @@ import "./App.css";
 //   product: "iPhone 16 Pro",
 // };
 // import Counter from "./ClassComponent";
-import Counter2 from "./ClassComponent2";
-import Say from "./Say";
+// import Counter2 from "./ClassComponent2";
+// import Say from "./Say";
+// import Clock from "./Clock";
+import EventPractice from "./EventPractice";
 function App() {
   return (
     <>
-      <Counter2></Counter2>
-      <Say></Say>
+      <EventPractice></EventPractice>
+      {/* <Clock></Clock> */}
+      {/* <Counter2></Counter2>
+      <Say></Say> */}
       {/* <Counter></Counter> */}
       {/* <h1>여기는 App.js입니다.</h1> */}
       {/* <Articles></Articles>
