@@ -1,5 +1,4 @@
 // import logo from "./logo.svg";
-import "./App.css";
 // import { Fragment } from "react";
 // import JsxSytax from "./jsx문법";
 // import GreetingComponent from "./GreetingComponent";
@@ -15,11 +14,15 @@ import "./App.css";
 // import Counter2 from "./ClassComponent2";
 // import Say from "./Say";
 // import Clock from "./Clock";
-import EventPractice from "./EventPractice";
+// import EventPractice from "./EventPractice";
+// import DropDownComponent from "./DropDownComponent";
+import RadioButton from "./RadioButton";
 function App() {
   return (
     <>
-      <EventPractice></EventPractice>
+      <RadioButton></RadioButton>
+      {/* <DropDownComponent></DropDownComponent> */}
+      {/* <EventPractice></EventPractice> */}
       {/* <Clock></Clock> */}
       {/* <Counter2></Counter2>
       <Say></Say> */}
