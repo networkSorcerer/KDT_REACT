@@ -14,6 +14,7 @@ import MyComponent from "./MyComponent";
 import BoxComponent from "./BoxComponenet";
 import TableMap from "./TableMap";
 import WelcomProps from "./WelcomeProps";
+import UserList from "./UserList";
 const productInfo = {
   date: "2024-09-01",
   product: "iPhone 16 Pro",
@@ -21,6 +22,7 @@ const productInfo = {
 function App() {
   return (
     <>
+      <UserList></UserList>
       <TableMap></TableMap>
       <RadioButton></RadioButton>
       <DropDownComponent></DropDownComponent>
