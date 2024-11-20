@@ -13,7 +13,7 @@ const DivBox = styled.div`
   width: 300px;
   height: 200px;
   margin-bottom: 20px;
-  background-color: orangered;
+  background-color: green;
   color: white;
 `;
 
