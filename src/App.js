@@ -19,6 +19,7 @@ import TodoList from "./TodoList";
 import NameCard from "./NameCard";
 import InfoEffect from "./InfoEffect";
 import ReducerCnt from "./ReducerState";
+import Average from "./Average";
 const productInfo = {
   date: "2024-09-01",
   product: "iPhone 16 Pro",
@@ -26,6 +27,7 @@ const productInfo = {
 function App() {
   return (
     <>
+      <Average></Average>
       <ReducerCnt></ReducerCnt>
       <InfoEffect></InfoEffect>
       <NameCard></NameCard>
