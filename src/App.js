@@ -16,6 +16,9 @@ import TableMap from "./TableMap";
 import WelcomProps from "./WelcomeProps";
 import UserList from "./UserList";
 import TodoList from "./TodoList";
+import NameCard from "./NameCard";
+import InfoEffect from "./InfoEffect";
+import ReducerCnt from "./ReducerState";
 const productInfo = {
   date: "2024-09-01",
   product: "iPhone 16 Pro",
@@ -23,6 +26,9 @@ const productInfo = {
 function App() {
   return (
     <>
+      <ReducerCnt></ReducerCnt>
+      <InfoEffect></InfoEffect>
+      <NameCard></NameCard>
       <TodoList></TodoList>
       <UserList></UserList>
       <TableMap></TableMap>
