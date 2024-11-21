@@ -20,6 +20,8 @@ import NameCard from "./NameCard";
 import InfoEffect from "./InfoEffect";
 import ReducerCnt from "./ReducerState";
 import Average from "./Average";
+import CreateRef from "./RefEx1";
+import InnerValueKeep from "./RefEx2";
 const productInfo = {
   date: "2024-09-01",
   product: "iPhone 16 Pro",
@@ -27,6 +29,8 @@ const productInfo = {
 function App() {
   return (
     <>
+      <InnerValueKeep></InnerValueKeep>
+      <CreateRef></CreateRef>
       <Average></Average>
       <ReducerCnt></ReducerCnt>
       <InfoEffect></InfoEffect>

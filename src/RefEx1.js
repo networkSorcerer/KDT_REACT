@@ -11,6 +11,9 @@ const CreateRef = () => {
   return (
     <>
       <input disabled type="text" ref={inputRef} />
+      <button onClick={handleFocus}>활성화</button>
     </>
   );
 };
+
+export default CreateRef;
